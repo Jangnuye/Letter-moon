@@ -1,0 +1,33 @@
+body {
+    background: #f7f2e7; /* Light paper-like background */
+    font-family: 'Nanum Myeongjo', serif; /* 나눔명조 폰트로 변경 */
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.letter {
+    max-width: 600px;
+    background: #fff;
+    padding: 40px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer p {
+    margin-top: 40px;
+    font-style: italic;
+}
